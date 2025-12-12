@@ -32,7 +32,7 @@ Deze repository bevat mijn **Online Portfolio** voor het opleidingsonderdeel **W
 - [ ] Controle op taalfouten  
 
 ### 2️⃣ Logboek
-- [ ] Planning Werkplekleren 1 overgenomen van Blackboard  
+- [x] Planning Werkplekleren 1 overgenomen van Blackboard  
 - [ ] Toekomstige aanvulling tijdens opleiding voorzien  
 
 ### 3️⃣ Ontwikkeling
