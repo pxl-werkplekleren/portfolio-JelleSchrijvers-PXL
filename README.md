@@ -27,8 +27,8 @@ Deze repository bevat mijn **Online Portfolio** voor het opleidingsonderdeel **W
 ## ✔️ Checklist Vereiste Inhoud – Online Portfolio
 
 ### 1️⃣ Inleidende tekst
-- [ ] Persoonlijke introductie (5-20 zinnen)  
-- [ ] Uitleg wat in het portfolio te vinden is  
+- [x] Persoonlijke introductie (5-20 zinnen)  
+- [x] Uitleg wat in het portfolio te vinden is  
 - [ ] Controle op taalfouten  
 
 ### 2️⃣ Logboek
