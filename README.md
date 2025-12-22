@@ -38,8 +38,9 @@ Deze repository bevat mijn **Online Portfolio** voor het opleidingsonderdeel **W
 ### 3️⃣ Ontwikkeling
 
 #### 3.1 Mijn keuze voor deze opleiding
-- [ ] Waarom kies je voor programmeren?  
-- [ ] Waarom past dit beroep bij jou?  
+- [x] Waarom kies je voor programmeren?  
+- [x] Waarom past dit beroep bij jou?  
+- [ ] 8-15 regels of 100-200 woorden per vraag!
 
 #### 3.2 Competenties programmeur
 **Rol: Ontwerper**  
