@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 /* Body */
 body {
     background: radial-gradient(circle at top, #111827, #020617 70%);
@@ -15,6 +16,7 @@ body {
 header {
     padding: 1.5rem 2.5rem;
 }
+
 /* Navbar layout */
 .container-nav {
     display: flex;
@@ -27,8 +29,7 @@ header {
     font-size: 1.2rem;
     font-weight: 600;
 }
-
-.functie {
+.container-functie {
     font-size: 0.85rem;
     color: #9ca3af;
 }
@@ -43,7 +44,6 @@ header {
     border-radius: 999px;
     backdrop-filter: blur(12px);
 }
-
 .container-center nav a {
     padding: 0.45rem 1.1rem;
     border-radius: 999px;
@@ -52,7 +52,6 @@ header {
     color: #e5e7eb;
     transition: background 0.2s ease;
 }
-
 .container-center nav a:hover,
 .container-center nav a[aria-current="page"] {
     background: rgba(255, 255, 255, 0.12);
@@ -63,7 +62,6 @@ header {
     display: flex;
     gap: 1rem;
 }
-
 .container-social a {
     display: flex;
     align-items: center;
@@ -72,7 +70,9 @@ header {
     color: #e5e7eb;
     text-decoration: none;
 }
-
+.container-social a:hover{
+    color: blue;
+}
 .container-social img {
     width: 1rem;
     height: 1rem;
@@ -92,20 +92,20 @@ header {
     min-height: 100vh;
     padding: 0.5rem;
 }
-.logboek{
-
-}
 .logboek table{
     width: 100%;
     border-collapse: collapse;
 }
-.logboek, td, th{
+.logboek table,
+.logboek th,
+.logboek td {
     border: 1px solid black;
 }
 .logboek li{
     list-style: none;
     margin: 1rem;
 }
+
 /*ontwikkeling*/
 .container-ontwikkeling{
     min-height: 100vh;
@@ -113,10 +113,11 @@ header {
 }
 
 /* NAV LIST (LEFT SIDE) */
-.container-nav-content{
+main > nav{
     position: sticky;
     top: 2rem;
     align-self: start;
+    padding: 1rem;
 }
 
 /* NAV STYLING */
