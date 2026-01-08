@@ -19,17 +19,43 @@ header {
 
 /* Navbar layout */
 .container-nav {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    justify-content: space-between;
+}
+.container-left {
+    justify-self: start;
+}
+.container-center {
+    justify-self: center;
+}
+.container-right {
+    justify-self: end;
 }
 
 /* Left */
-.container-left h1 {
-    font-size: 1.2rem;
-    font-weight: 600;
+.basis-info {
+    display: flex;           
+    align-items: center;     
+    gap: 1rem;               
+}
+.container-profile-picture img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;      
+    object-fit: cover;       
+}
+.container-name-functie {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
+}
+.container-name-functie h1 {
+    margin: 0;
+    font-size: 1.4rem;
 }
 .container-functie {
+    margin: 0;
     font-size: 0.85rem;
     color: #9ca3af;
 }
@@ -76,6 +102,20 @@ header {
 .container-social img {
     width: 1rem;
     height: 1rem;
+}
+/*main*/
+main{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* Sticky nav */
+main nav {
+    position: sticky;
+    top: 2rem;
+    flex-shrink: 0;
+    min-width: 200px;
 }
 
 /*over-mij*/
@@ -154,7 +194,7 @@ main > nav{
 
 /*project section*/
 .opdrachten{
-    max-width: 1100px;
+    width:20rem;
     margin: 4rem auto;
     display: grid;
     gap: 2.5rem;
