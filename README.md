@@ -81,7 +81,7 @@ Deze repository bevat mijn **Online Portfolio** voor het opleidingsonderdeel **W
 - [x] Beschrijving van de opdracht per item  
 - [x] Persoonlijke uitdagingen benoemd  
 - [x] Geleerde lessen beschreven  
-- [ ] Chronologische volgorde  
+- [x] Chronologische volgorde  
 
 ### 5️⃣ Reflectie
 
