@@ -9,20 +9,34 @@ body {
     background: radial-gradient(circle at top, #111827, #020617 70%);
     color: #e5e7eb;
     font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
-    min-height: 100vh;
 }
 
 /* Header */
 header {
     padding: 1.5rem 2.5rem;
 }
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.container-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.container-nav-content {
+    position: sticky;
+    width: 200px;
+    padding: 20px;
+    overflow-y: auto;
+}
 
 /* Navbar layout */
-.container-nav {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-}
 .container-left {
     justify-self: start;
 }
@@ -103,20 +117,6 @@ header {
     width: 1rem;
     height: 1rem;
 }
-/*main*/
-main{
-    display: flex;
-    gap: 2rem;
-    padding: 2rem;
-}
-
-/* Sticky nav */
-main nav {
-    position: sticky;
-    top: 2rem;
-    flex-shrink: 0;
-    min-width: 200px;
-}
 
 /*over-mij*/
 .container-over-mij{
@@ -152,14 +152,6 @@ main nav {
     margin: 2rem;
 }
 
-/* NAV LIST (LEFT SIDE) */
-main > nav{
-    position: sticky;
-    top: 2rem;
-    align-self: start;
-    padding: 1rem;
-}
-
 /* NAV STYLING */
 .container-nav-content ul {
     display: flex;
@@ -193,29 +185,59 @@ main > nav{
 }
 
 /*project section*/
-.opdrachten{
-    width:20rem;
-    margin: 4rem auto;
-    display: grid;
-    gap: 2.5rem;
-    padding: 0 2rem;
+.opdrachten {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 /* Project card */
-.container-opdrachten{
+.container-work {
+    flex: 1;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(180deg, #0f172a, #020617);
-    border-radius: 1.5rem;
-    padding: 2.5rem;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    flex-direction: column;
+    gap: 40px;
 }
 
-.container-opdrachten:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8);
+.container-opdrachten {
+    position: relative;
+    max-width: 1100px;
+    width: 100%;
+    min-height: 80vh;
+    margin: 0 auto;
+    padding: 4rem 4rem 4rem 4rem;
+    background: linear-gradient(180deg, #0f172a, #020617);
+    border-radius: 2rem;
+    overflow: hidden;   
+}
+.opdracht {
+   position: relative;
+    z-index: 2;
+    min-height: 80vh;
+}
+.opdracht img {
+    position: absolute;
+    bottom: 0;
+    left: 4rem;
+    right: 4rem;
+    height: 420px;
+    object-fit: cover;
+}
+.opdracht h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.container-opdrachten:hover .opdracht img {
+    transform: translateY(-24px);
+    box-shadow:
+        0 50px 120px rgba(56, 189, 248, 0.45),
+        0 0 90px rgba(56, 189, 248, 0.35);
+}
+.container-opdrachten a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
 }
 
 /* Project text */
