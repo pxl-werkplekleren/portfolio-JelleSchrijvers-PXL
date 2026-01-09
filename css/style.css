@@ -476,3 +476,26 @@ main {
     color: #9ca3af;
     max-width: 500px;
 }
+/* Scroll to top button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #1f2937; /* zoals je content-cards */
+    color: #38bdf8; /* accentkleur van titels */
+    padding: 0.8rem 1rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+/* Hover effect */
+.scroll-to-top:hover {
+    background-color: #38bdf8; /* accentkleur */
+    color: #111827; /* body backgroundkleur */
+    transform: translateY(-3px);
+}
