@@ -72,9 +72,9 @@ Deze repository bevat mijn **Online Portfolio** voor het opleidingsonderdeel **W
 - [x] Voor elke rol: wat lukt nog niet  
 
 #### 3.4 Voorbeelden van activiteiten
-- [ ] Minimaal 3 voorbeelden per rol (totaal 15)  
-- [ ] Motivatie waarom activiteit bij rol hoort  
-- [ ] Eventueel: activiteiten die je nog wilt uitvoeren  
+- [x] Minimaal 3 voorbeelden per rol (totaal 15)  
+- [x] Motivatie waarom activiteit bij rol hoort  
+- [x] Eventueel: activiteiten die je nog wilt uitvoeren  
 
 ### 4️⃣ Opdrachten
 - [x] Overzicht van alle opdrachten (POP, CV, C#-projecten, …)  
