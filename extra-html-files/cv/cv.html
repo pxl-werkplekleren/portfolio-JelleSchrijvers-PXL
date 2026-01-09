@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="iconen/coding.png">
+    <!-- stylesheet voor laptop --> 
+    <link rel="stylesheet" href="cv.css"/>
+    <!--script java-->
+    <script src="script.js"></script>
+    <title>CV-Jelle-Schrijvers</title>
+</head>
+<body>
+    <aside class="sidebar">
+        <article class="basis-info">
+            <a href="https://www.linkedin.com/in/jelleschrijvers/" target="_blank">
+                <img class="myprofileimage" src="images/profiel (2).jpg" alt="Jelle Schrijvers">
+            </a>
+            <div class="name-functie">
+                <h1>Jelle Schrijvers</h1>
+                <h2>Student</h2>
+            </div>
+            <button onclick="ToonSideBar()"><img class="dropdown-icon" src="/JS-map/iconen/chevron-down-svgrepo-com-nobg.svg" alt="dropdown-icon"></button>
+        </article>
+        <article class="over-mij">
+            <h2>Info over mij</h2>
+            <p>Ik ben Jelle Schrijvers, student aan PXL-Digital waar ik het graduaat Programmeren volg. Ik heb een sterke interesse in softwareontwikkeling en het bouwen van eigen digitale projecten. Ik leer snel, denk analytisch en werk graag gestructureerd. Ik heb ervaring met C#, HTML, CSS, JavaScript en SQL. Ik ben gemotiveerd om mijn vaardigheden verder te ontwikkelen binnen een professionele omgeving.</p>
+        </article>
+        <section class="contact-info">
+            <h2>Contact</h2>
+            <div class="contact-container">
+                <p data-contact="+32 474 02 82 73"><img class="contact-icon" src="iconen/telephone_684812.png" alt="Telefoon"></p>
+                <p data-contact="jelleschrijvers07@gmail.com"><img class="contact-icon" src="iconen/gmail_299393.png" alt="E-mail"></p>
+                <p data-contact="Oude Barrier 66, Beringen 3583"><img class="contact-icon" src="iconen/placeholder_738521.png" alt="Locatie"></p>
+            </div>
+        </section>
+        <section class="socials">
+            <h2>Socials</h2>
+            <div class="socials-container">
+                <a data-social="GitHub" style="--accent-color: #333" href="https://github.com/JelleSchrijvers-PXL" target="_blank">
+                    <img class="social-icon" src="iconen/github.svg" alt="GitHub">
+                </a>
+                <a data-social="Instagram" style="--accent-color: #E1306C" href="https://www.instagram.com/jelle_schrijvers/" target="_blank">
+                    <img class="social-icon" src="iconen/instagram.svg" alt="Instagram">
+                </a>
+                <a data-social="X" style="--accent-color: #000" href="https://x.com/JSchrijver91615" target="_blank">
+                    <img class="social-icon" src="iconen/x.svg" alt="X">
+                </a>
+            </div>
+        </section>
+    </aside>
+    <main class="main-content">
+        <nav class="nav-menu">
+            <button onclick="ToonMenu()"><img class="menu-icon" src="/JS-map/iconen/menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="menu"></button>
+            <ul class="nav-links">
+                <li><a href="#werkervaring">Werkervaring</a></li>
+                <li><a href="#opleiding">Opleiding</a></li>
+                <li><a href="#vaardigheden">Vaardigheden</a></li>
+                <li><a href="#hobbys">Hobby's</a></li>
+                <li><a href="#talenkennis">Talen</a></li>
+            </ul>
+        </nav>
+        <section id="werkervaring" class="content-section">
+            <div class="section-content">
+                <h2>Werkervaring</h2>
+                <ul class="cards-container">
+                    <li class="card">
+                        <h3>Uitvoerder groenbeheer</h3>
+                        <div class="meta-row">
+                            <span class="bedrijf">Geerts Waterwerken</span>
+                            <span class="periode">Juni 2024 - Augustus 2024</span>
+                        </div>
+                        <p>Ervaren in het onderhoud van groenvoorzieningen en openbare ruimtes, waaronder het scheren van hagen, onderhouden van beken en plassen, en het uitvoeren van diverse groenwerkzaamheden zoals snoeien en maaien.</p>
+                    </li>
+                    <li class="card">
+                        <h3>Uitvoerder groenbeheer</h3>
+                        <div class="meta-row">
+                            <span class="bedrijf">Michel Schrijvers</span>
+                            <span class="periode">Juli 2023 - nu</span>
+                        </div>
+                        <p>Ervaren in het onderhoud en aanleggen van tuinen, waaronder het scheren van hagen, bomen planten, kunstgras plaatsen, kiezels leggen en diverse andere groenwerkzaamheden.</p>
+                    </li>
+                    <li class="card">
+                        <h3>Zaalmedewerker</h3>
+                        <div class="meta-row">
+                            <span class="bedrijf">Pasta Pronto</span>
+                            <span class="periode">Mei 2025 - nu</span>
+                        </div>
+                        <p>Ervaren in het opnemen en opdienen van klanten. Waaronder het maken van drankjes en opdekken van tafels en onderhouden van de planten in de zaak.</p>
+                    </li>
+                    <li class="card">
+                        <h3>Kassamedewerker + uitpak</h3>
+                        <div class="meta-row">
+                            <span class="bedrijf">Carrefour Market Paal</span>
+                            <span class="periode">Oktober 2025 - nu</span>
+                        </div>
+                        <p>Bij Carrefour Market stond ik aan de kassa, waar ik verantwoordelijk was voor een vlotte bediening en het correct beheren en tellen van mijn eigen kassa. Wanneer het rustig was, hou ik de winkel netjes, controleerde ik houdbaarheidsdata, keek ik groenten en fruit na en vulde ik de rekken aan.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="opleiding" class="content-section">
+            <div class="section-content">
+                <h2>Opleidingen</h2>
+                <div class="cards-container">
+                    <article class="card">
+                        <h3>PXL-Digital</h3>
+                        <h4>Graduaat programmeren</h4>
+                        <p><strong>September 2025 - Juni 2027</strong></p>
+                        <p>Vaardigheden: C#, HTML, CSS, JavaScript, SQL, Git, Github</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="vaardigheden" class="content-section">
+            <div class="section-content">
+                    <h2>Vaardigheden</h2>
+                    <h4>Hard skills</h4>
+                    <div class="cards-container">
+                        <article class="card">
+                            <h3>Software & Tools</h3>
+                            <ul class="skills-list">
+                                <li>Microsoft 365 (Excel, Word, Powerpoint, Teams)</li>
+                                <li>Adobe Premiere Pro / Canva (voor basis video- en beeldbewerking)</li>
+                                <li>blender (3D-desgin)</li>
+                            </ul>
+                        </article>
+                        <article class="card">
+                            <h3>Programeer- en IT-vaardigheden</h3>
+                            <ul class="skills-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>C#</li>
+                                <li>Python</li>
+                                <li>SQL</li>
+                                <li>Git</li>
+                            </ul>
+                        </article>
+                        <article class="card">
+                            <h3>Data & analyse</h3>
+                            <ul class="skills-list">
+                                <li>Basis statistiek</li>
+                                <li>Gegevensvisualisatie (Excel-grafieken, dashboards)</li>
+                            </ul>
+                        </article>
+                        <article class="card">
+                            <h3>Project- & werkmethodes</h3>
+                            <ul class="skills-list">
+                                <li>Scrum/Kanban (basis)</li>
+                                <li>Documentatie opstellen</li>
+                            </ul>
+                        </article>
+                    </div>
+            </div>
+        </section>
+        <section class="content-section">
+            <div class="section-content">
+                <h2>Vaardigheden</h2>
+                <h4>Soft skills</h4>
+                <div class="cards-container">
+                    <article class="card">
+                        <h3>Communicatie & samenwerking</h3>
+                        <ul class="skills-list">
+                                    
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Persoonlijke vaardigheden</h3>
+                        <ul class="skills-list">
+                            <li>Doorzettingsvermogen</li>
+                            <li>Zelfdiscipline en verbeteringsgericht</li>
+                            <li>Probleemoplossend denken</li>
+                            <li>Verantwoordelijkheid nemen</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Organisatie & planning</h3>
+                        <ul class="skills-list">
+                            <li>Tijdmanagenement</li>
+                            <li>Prioriteiten stellen</li>
+                            <li>Deadlines opvolgen</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Creativiteit & ondernemerschap</h3>
+                        <ul class="skills-list">
+                            <li>Conceptontwikkeling</li>
+                            <li>Basis marketing en mediacampagnes</li>
+                            <li>Origineel denken en intiatief nemen</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="hobbys" class="content-section">
+            <div class="section-content">
+                <h2>Hobby's</h2>
+                <div class="cards-container">
+                    <article class="card">
+                        <h3>Basketball</h3>
+                        <p>Ik heb van jongs af aan gevoetbald, maar toen het plezier wegviel, besloot ik een nieuwe sport uit te proberen. Vijf jaar geleden ben ik begonnen met basketballen. Sindsdien speel ik bij de herenploegen van Laakdal (eerste en tweede ploeg). Ik train twee keer per week en, afhankelijk van het speelschema, neem ik deel aan één à twee wedstrijden per week.</p>
+                        <div class="image-gallery">
+                            <img src="images/Schermafbeelding 2025-11-21 165940.png" alt="Basketball 1">
+                            <img src="images/Schermafbeelding 2025-11-21 170111.png" alt="Basketball 2">
+                            <img src="images/Schermafbeelding 2025-11-21 170209.png" alt="Basketball 3">
+                            <img src="images/Schermafbeelding 2025-11-21 170301.png" alt="Basketball 4">
+                            <img src="images/Schermafbeelding 2025-11-21 170357.png" alt="Basketball 5">
+                            <img src="images/Schermafbeelding 2025-11-21 170432.png" alt="Basketball 6">
+                            <img src="images/Schermafbeelding 2025-11-21 170503.png" alt="Basketball 7">
+                            <img src="images/Schermafbeelding 2025-11-21 170601.png" alt="Basketball 8">
+                            <img src="images/Schermafbeelding 2025-11-21 170628.png" alt="Basketball 9">
+                        </div>
+                    </article>
+                    <article class="card">
+                        <h3>Fitness</h3>
+                        <p>Omdat ik veel stilzit, vind ik het belangrijk om voldoende te bewegen. Naast basketbal ga ik daarom vijf keer per week naar de fitness. Ik focus daarbij op krachttraining om mijn fysieke weerbaarheid te vergroten en beter te kunnen presteren tegen volwassen tegenstanders, zodat ik mijn beste prestaties kan behalen voor mijn team.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="talenkennis" class="content-section">
+            <div class="section-content">
+                <h2>Talen</h2>
+                    <table class="talen-tabel">
+                        <thead>
+                            <tr>
+                                <th>Taal</th>
+                                <th>Niveau</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Nederlands</td>
+                                <td>Moedertaal</td>
+                            </tr>
+                            <tr>
+                                <td>Engels</td>
+                                <td>Vlot</td>
+                            </tr>
+                            <tr>
+                                <td>Frans</td>
+                                <td>Slecht</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="mobile-tabel">
+                        <div class="taal-item">
+                            <span>Nederlands</span>
+                            <div class="taal-bar"><div style="width: 80%"></div></div>
+                        </div>
+                        <div class="taal-item">
+                            <span>Engels</span>
+                            <div class="taal-bar"><div style="width: 95%"></div></div>
+                        </div>
+                        <div class="taal-item">
+                            <span>Frans</span>
+                            <div class="taal-bar"><div style="width: 10%"></div></div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="naamenklas">Jelle Schrijvers 1PROE</p>
+        <p class="opdracht">Opdracht curriculum vitae</p>
+        <a href="#werkervaring" class="terugnaarboven">↑ Terug naar boven</a>
+    </footer>
+</body>
+</html>
