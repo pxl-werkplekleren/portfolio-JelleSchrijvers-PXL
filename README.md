@@ -77,10 +77,10 @@ Deze repository bevat mijn **Online Portfolio** voor het opleidingsonderdeel **W
 - [ ] Eventueel: activiteiten die je nog wilt uitvoeren  
 
 ### 4️⃣ Opdrachten
-- [ ] Overzicht van alle opdrachten (POP, CV, C#-projecten, …)  
-- [ ] Beschrijving van de opdracht per item  
-- [ ] Persoonlijke uitdagingen benoemd  
-- [ ] Geleerde lessen beschreven  
+- [x] Overzicht van alle opdrachten (POP, CV, C#-projecten, …)  
+- [x] Beschrijving van de opdracht per item  
+- [x] Persoonlijke uitdagingen benoemd  
+- [x] Geleerde lessen beschreven  
 - [ ] Chronologische volgorde  
 
 ### 5️⃣ Reflectie
