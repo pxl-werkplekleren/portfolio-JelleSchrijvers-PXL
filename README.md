@@ -44,32 +44,32 @@ Deze repository bevat mijn **Online Portfolio** voor het opleidingsonderdeel **W
 
 #### 3.2 Competenties programmeur
 **Rol: Ontwerper**  
-- [ ] **OLR1** – De gegradueerde bereidt de realisatie van een softwareproject voor.  
-- [ ] **OLR2** – De gegradueerde maakt op basis van de analyse een onderbouwd voorstel voor: ontwerp, programmeertaal en methodiek, en stemt dit af met softwareontwikkelaar/analist/projectleider.  
+- [x] **OLR1** – De gegradueerde bereidt de realisatie van een softwareproject voor.  
+- [x] **OLR2** – De gegradueerde maakt op basis van de analyse een onderbouwd voorstel voor: ontwerp, programmeertaal en methodiek, en stemt dit af met softwareontwikkelaar/analist/projectleider.  
 
 **Rol: Programmeur**  
-- [ ] **OLR3** – De gegradueerde realiseert softwareapplicaties en gegevensstructuren planmatig volgens projectplan en methodiek.  
-- [ ] **OLR4** – De gegradueerde is medeverantwoordelijk voor de eigen digitale werkomgeving en draagt bij aan gedeelde infrastructuur.  
-- [ ] **OLR5** – De gegradueerde programmeert softwaretoepassingen volgens standaarden en afspraken.  
-- [ ] **OLR6** – De gegradueerde voert onderhoud en aanpassingen projectmatig uit in overleg met softwareontwikkelaar/analist/projectleider.  
+- [x] **OLR3** – De gegradueerde realiseert softwareapplicaties en gegevensstructuren planmatig volgens projectplan en methodiek.  
+- [x] **OLR4** – De gegradueerde is medeverantwoordelijk voor de eigen digitale werkomgeving en draagt bij aan gedeelde infrastructuur.  
+- [x] **OLR5** – De gegradueerde programmeert softwaretoepassingen volgens standaarden en afspraken.  
+- [x] **OLR6** – De gegradueerde voert onderhoud en aanpassingen projectmatig uit in overleg met softwareontwikkelaar/analist/projectleider.  
 
 **Rol: Tester**  
-- [ ] **OLR7** – De gegradueerde test de werking en functionaliteit van de gerealiseerde code en verbetert deze op basis van feedback.  
+- [x] **OLR7** – De gegradueerde test de werking en functionaliteit van de gerealiseerde code en verbetert deze op basis van feedback.  
 
 **Rol: Communicator / Teamspeler**  
-- [ ] **OLR8** – De gegradueerde werkt constructief samen in een multidisciplinair team en participeert actief tijdens overlegmomenten.  
-- [ ] **OLR9** – De gegradueerde communiceert en rapporteert efficiënt over het geleverde werk, aangepast aan het doelpubliek, met correct vakjargon.  
-- [ ] **OLR10** – De gegradueerde documenteert applicaties overzichtelijk en geeft kwalitatieve input voor handleidingen, referentiegidsen en online hulpbronnen.  
+- [x] **OLR8** – De gegradueerde werkt constructief samen in een multidisciplinair team en participeert actief tijdens overlegmomenten.  
+- [x] **OLR9** – De gegradueerde communiceert en rapporteert efficiënt over het geleverde werk, aangepast aan het doelpubliek, met correct vakjargon.  
+- [x] **OLR10** – De gegradueerde documenteert applicaties overzichtelijk en geeft kwalitatieve input voor handleidingen, referentiegidsen en online hulpbronnen.  
 
 **Rol: Levenslang lerende IT-professional**  
-- [ ] **OLR11** – De gegradueerde onderhoudt zijn deskundigheidsniveau door relevante IT- en maatschappelijke ontwikkelingen te volgen.  
-- [ ] **OLR12** – De gegradueerde is zelfkritisch, ontwikkelt zelfkennis en gebruikt deze voor persoonlijke en professionele groei.  
-- [ ] **OLR13** – De gegradueerde handelt deontologisch en duurzaam, met aandacht voor veiligheids- en privacyrichtlijnen.  
+- [x] **OLR11** – De gegradueerde onderhoudt zijn deskundigheidsniveau door relevante IT- en maatschappelijke ontwikkelingen te volgen.  
+- [x] **OLR12** – De gegradueerde is zelfkritisch, ontwikkelt zelfkennis en gebruikt deze voor persoonlijke en professionele groei.  
+- [x] **OLR13** – De gegradueerde handelt deontologisch en duurzaam, met aandacht voor veiligheids- en privacyrichtlijnen.  
 
 #### 3.3 Situering binnen profiel
-- [ ] Voor elke rol: huidige niveau  
-- [ ] Voor elke rol: wat lukt al goed  
-- [ ] Voor elke rol: wat lukt nog niet  
+- [x] Voor elke rol: huidige niveau  
+- [x] Voor elke rol: wat lukt al goed  
+- [x] Voor elke rol: wat lukt nog niet  
 
 #### 3.4 Voorbeelden van activiteiten
 - [ ] Minimaal 3 voorbeelden per rol (totaal 15)  
