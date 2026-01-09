@@ -86,20 +86,20 @@ Deze repository bevat mijn **Online Portfolio** voor het opleidingsonderdeel **W
 ### 5️⃣ Reflectie
 
 #### 5.1 AIM-reflectie op WPL1
-- [ ] Introductie van de periode (context)  
-- [ ] Positieve elementen benoemd  
-- [ ] Minder leuke elementen benoemd  
-- [ ] Inzichten en lessen voor volgende periode  
-- [ ] Persoonlijk succes beschreven  
+- [x] Introductie van de periode (context)  
+- [x] Positieve elementen benoemd  
+- [x] Minder leuke elementen benoemd  
+- [x] Inzichten en lessen voor volgende periode  
+- [x] Persoonlijk succes beschreven  
 
 #### 5.2 Wat neem ik mee naar volgende WPL
-- [ ] Minimaal 1 en maximaal 3 kernkwadranten ingevuld  
-- [ ] Motivatie voor de gekozen kernkwadranten  
+- [x] Minimaal 1 en maximaal 3 kernkwadranten ingevuld  
+- [x] Motivatie voor de gekozen kernkwadranten  
 
 #### 5.3 X-factor
-- [ ] Koppeling van taken aan X-factor onderdelen  
-- [ ] Voorbeelden per onderdeel van X-factor  
-- [ ] Visuele/creatieve weergave (optioneel)  
+- [x] Koppeling van taken aan X-factor onderdelen  
+- [x] Voorbeelden per onderdeel van X-factor  
+- [x] Visuele/creatieve weergave (optioneel)  
 
 ### 6️⃣ Evaluatie & Indienen
 - [ ] Controle op alle vereiste onderdelen aanwezig  
