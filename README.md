@@ -29,18 +29,18 @@ Deze repository bevat mijn **Online Portfolio** voor het opleidingsonderdeel **W
 ### 1️⃣ Inleidende tekst
 - [x] Persoonlijke introductie (5-20 zinnen)  
 - [x] Uitleg wat in het portfolio te vinden is  
-- [ ] Controle op taalfouten  
+- [x] Controle op taalfouten  
 
 ### 2️⃣ Logboek
 - [x] Planning Werkplekleren 1 overgenomen van Blackboard  
-- [ ] Toekomstige aanvulling tijdens opleiding voorzien  
+- [x] Toekomstige aanvulling tijdens opleiding voorzien  
 
 ### 3️⃣ Ontwikkeling
 
 #### 3.1 Mijn keuze voor deze opleiding
 - [x] Waarom kies je voor programmeren?  
 - [x] Waarom past dit beroep bij jou?  
-- [ ] 8-15 regels of 100-200 woorden per vraag!
+- [x] 8-15 regels of 100-200 woorden per vraag!
 
 #### 3.2 Competenties programmeur
 **Rol: Ontwerper**  
@@ -102,7 +102,7 @@ Deze repository bevat mijn **Online Portfolio** voor het opleidingsonderdeel **W
 - [x] Visuele/creatieve weergave (optioneel)  
 
 ### 6️⃣ Evaluatie & Indienen
-- [ ] Controle op alle vereiste onderdelen aanwezig  
+- [x] Controle op alle vereiste onderdelen aanwezig  
 - [ ] Website correct laden in browser  
 - [ ] URL ingediend op Blackboard vóór **09-01-2026 23:59**
 
